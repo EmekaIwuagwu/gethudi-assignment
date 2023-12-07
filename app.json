@@ -21,11 +21,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "versionCode":1
+      },
+      "package": "com.iwuagwuemmy.gethudiassignment"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b0ec6ea7-8b00-4762-b1e9-daea1371b993"
+      }
     }
   }
 }

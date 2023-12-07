@@ -55,9 +55,9 @@ const styles = StyleSheet.create({
   header: {
     textAlign:"left",
     color: "#242124",
-    fontFamily: 'CircularBold',
+    fontFamily: 'Circular-Std-Bold',
     fontSize: 40,
-    fontWeight: "700",
+    //fontWeight: "700",
     paddingHorizontal:24,
     letterSpacing:0.41,
     lineHeight:48
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     color: "#242124",
     fontSize: 17,
     marginTop:15,
-    fontWeight: "400",
+    //fontWeight: "400",
     marginHorizontal:24,
     letterSpacing:0.38,
     lineHeight:24

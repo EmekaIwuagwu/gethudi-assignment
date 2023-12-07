@@ -53,7 +53,8 @@ const styles = StyleSheet.create({
   },
   header1: {
     fontSize: 28,
-    fontWeight: "bold",
+    fontFamily:"CircularStd-Medium",
+    //fontWeight: "bold",
     marginVertical: 24
     //textAlign: "center",
   },
@@ -70,11 +71,13 @@ const styles = StyleSheet.create({
   },
   header3: {
     fontSize: 20,
+    fontFamily: "Circular-Std-Book"
     //textAlign: "center",
-    fontWeight:"400",
+    //fontWeight:"400",
   },
   header4: {
     paddingTop:24,
+    fontFamily: "Circular-Std-Book",
     fontSize: 20,
     //textAlign: "center",
   },

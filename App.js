@@ -13,8 +13,10 @@ const Stack = createStackNavigator();
 const App = () => {
 
   const [fontsLoaded] = useFonts({
-    CircularBold: require('./assets/fonts/Circular-Std-Bold.otf'),
-    CircularMedium: require('./assets/fonts/CircularStd-Medium.otf'),
+    "Circular-Std-Bold": require('./src/assets/fonts/Circular-Std-Bold.otf'),
+    "CircularStd-Medium": require('./src/assets/fonts/CircularStd-Medium.otf'),
+    "CircularStd-Black": require('./src/assets/fonts/CircularStd-Black.otf'),
+    "Circular-Std-Book": require('./src/assets/fonts/Circular-Std-Book.otf'),
   });
 
   if (!fontsLoaded) {

@@ -72,13 +72,15 @@ const styles = StyleSheet.create({
   habitText: {
     paddingVertical: 24,
     fontSize: 28,
-    fontWeight: "500",
+    fontFamily: "Circular-Std-Bold",
+    //fontWeight: "500",
     lineHeight: 34,
     letterSpacing: 0.338,
   },
   mainText: {
     fontSize: 20,
-    fontWeight: "500",
+    fontFamily: "Circular-Std-Book",
+    //fontWeight: "500",
     lineHeight: 25,
     letterSpacing: 0.38,
   },
